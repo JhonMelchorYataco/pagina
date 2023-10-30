@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ESTILO.css">
+    <link rel="stylesheet" href="JAVA.JS">
+    <title>Institución Educativa San Benito</title>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Logo de San Benito">
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#institucional">Institucional</a></li>
+                <li><a href="#docentes">Docentes</a></li>
+                <li><a href="#horarios">Horarios</a></li>
+                <li><a href="#calendario">Calendario</a></li>
+                
+                <!-- Agrega más elementos de menú aquí -->
+            </ul>
+        </nav>
+    </header>
+    <button id="toggleButton">Mostrar Información</button>
+    <!-- Agrega este elemento con el ID "mostrarInformacion" donde desees mostrar la información -->
+<div id="mostrarInformacion" style="display: none;">
+    <h2>Información Institucional</h2>
+    <p>Aquí puedes agregar toda la información institucional que desees mostrar en tu página.</p>
+    <p>Puedes formatear y estructurar el contenido como prefieras.</p>
+</div>
+
+
+    <a href="pei.pdf" download>Descargar PEI</a>
+    <img id="galeria" src="imagen1.jpg" alt="Imagen de la galería">
+    <button id="toggleDocentesButton">Mostrar Docentes</button>
+
+    <section id="inicio">
+        <!-- Banner Principal -->
+        <div id="banner">
+            <img src="imagen2.JPG" alt="Banner Principal">
+            <h1>Bienvenido a la Institución Educativa San Benito</h1>
+        </div>
+    </section>
+
+    <section id="institucional">
+        <!-- Información Institucional -->
+        <h2>Información Institucional</h2>
+        <h3>Reseña Histórica</h3>
+        <p>Texto de la reseña histórica...</p>
+        <h3>Visión</h3>
+        <p>Texto de la visión...</p>
+        <h3>Misión</h3>
+        <p>Texto de la misión...</p>
+        <h3>Palabras del Director/a</h3>
+        <p>Texto de las palabras del director/a...</p>
+        <h3>Ideario Institucional</h3>
+        <p>Texto del ideario institucional...</p>
+        <h3>Organigrama</h3>
+        <img src="organigrama.jpg" alt="Organigrama">
+    </section>
+
+    <section id="docentes">
+        <!-- Relación de la Plana Docente -->
+        <h2>Plana Docente</h2>
+        <!-- Para cada docente -->
+        <div class="docente">
+            <img src="docente1.jpg" alt="Foto de Docente">
+            <h3>Nombre Completo</h3>
+            <p>Especialidad: Especialidad del docente</p>
+            <p>Grado Académico: Grado académico del docente</p>
+        </div>
+        <!-- Repite este bloque para cada docente -->
+    </section>
+
+    <section id="horarios">
+        <!-- Horarios de la IEP -->
+        <h2>Horarios</h2>
+        <table>
+            <!-- Aquí puedes agregar una tabla con los horarios -->
+        </table>
+    </section>
+
+    <section id="calendario">
+        <!-- Calendario de Actividades -->
+        <h2>Calendario de Actividades</h2>
+        <h3>Fechas Cívicas</h3>
+        <ul>
+            <!-- Lista de fechas cívicas -->
+            <li>Fecha 1: Descripción</li>
+            <li>Fecha 2: Descripción</li>
+            <!-- Agrega más fechas aquí -->
+        </ul>
+        <h3>Simulacros de Sismos</h3>
+        <ul>
+            <!-- Lista de simulacros de sismos -->
+            <li>Fecha 1: Descripción</li>
+            <li>Fecha 2: Descripción</li>
+            <!-- Agrega más fechas aquí -->
+        </ul>
+        <h3>Aniversario de la IEP</h3>
+        <p>Fecha y descripción del aniversario de la IEP</p>
+        <h3>Aniversario del Distrito/Provincia</h3>
+        <p>Fecha y descripción del aniversario del distrito/provincia</p>
+        <h3>Día del Logro</h3>
+        <p>Fecha y descripción del Día del Logro</p>
+    </section>
+
+    <footer>
+        <p>Contacto: dirección, teléfono, correo electrónico</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
